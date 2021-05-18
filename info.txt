@@ -1,0 +1,23 @@
+project run:-
+nodemon src/app.js
+
+sofware req:
+mongobd compass and postman
+
+postman structcher in body :
+{
+    "ranking": 5,
+    "name": "Rahul",
+    "dob": "14 Dec 1996",
+    "country": "IND",
+    "score": 1977
+}
+
+project dependencies:- 
+express and mongoose
+
+in src folder has 3 folder:
+db > connection.js (create database connention in mongodb)
+models > mens.js (define schema)
+routers > men.js (handle post, get, patch and delete)
+
